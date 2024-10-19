@@ -1,7 +1,5 @@
 name: test_cicd
-on:
-  schedule:
-  - cron: "59 19 * * *"
+on: push
 jobs:
   my-job:
     runs-on: ubuntu-latest
